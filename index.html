@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <title>NETCLIPS</title>
+    <script>
+        $( function() {
+          $( "#dialog" ).dialog({
+            autoOpen: false,
+            show: {
+              effect: "blind",
+              duration: 1000
+            },
+            hide: {
+              effect: "explode",
+              duration: 1000
+            }
+          });
+       
+          $( "#opener" ).on( "click", function() {
+            $( "#dialog" ).dialog( "open" );
+          });
+        } );
+        </script>
+</head>
+<body>
+    <header>
+    <div class="container">
+        <h2 class="logo">NETShows</h2>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#bandas">Bandas</a>
+            <a href="#">Interprete</a>
+            <a href="#estilos">Estilos</a>
+            <a href="#">Album</a>
+            <a href="#">Criticas</a>
+            trex.depth
+        </nav>
+    </div>
+    </header>
+    <main>
+      <div class="filmeprincipal">
+        <div class="container">
+           <h3 class="titulo">
+            Elton Jonh
+           </h3>
+           <p class="descricao">
+            Elton John’s 50th-anniversary reissue of Madman Across the Water makes a splash on Billboard’s album charts (dated June 25), as the set debuts in the top 10 on both Top Album Sales and Vinyl Albums. 
+
+            
+           </p>
+            <!--fazer uma leitura de um arquivo json  --> 
+            <div id="dialog" title="">
+                 <p id="Info"></p>
+            </div>
+
+
+            <a href="https://www.billboard.com/music/chart-beat/elton-john-madman-across-the-water-reissue-top-album-sales-1235104743/">
+                <button role="button" class="botao" >
+                    <i class="fa-solid fa-circle-play"></i>  Assistir Agora</button>
+            </a>
+
+                <button id="opener" role="button" class="botao"><i class="fa-solid fa-circle-info"></i> Informações</button>
+            </div>
+        </div>
+      </div>
+    </main>
+    <div class="carrocel-filmes">
+        <div id="estilos" class="tipovideo">Estilos</div>
+        <div class="owl-carousel owl-theme">
+         
+            <div class="item">
+              <h4><img class="box-filmes" src="img/madonna1.jpg">
+                <p>Maddonna</p>
+              </h4>
+            
+          
+              <div class="legenda">
+                <ul>
+                  <li id="show0"></li>
+                  <li id="ano0"></li>
+                  <li id="critica0"></li>
+                </ul>                
+              </div>    
+            </div>
+        
+         
+            <div class="item">
+              <h4><img class="box-filmes" src="img/madonna2.jpg">
+                <p>Maddonna</p>
+              </h4>
+            
+            
+              <div class="legenda">
+                <ul>
+                  <li id="show1">Show</li>
+                  <li id="ano1">Ano</li>
+                  <li id="critica1">Critica </li>
+                </ul>                
+              </div>    
+            </div>
+            
+          
+            <div class="item">
+              <h4><img class="box-filmes" src="img/madonna3.jpg">
+                <p>Maddonna</p>
+              </h4>
+            
+         
+              <div class="legenda">
+                <ul>
+                  <li id="show2">Show</li>
+                  <li id="ano2">Ano</li>
+                  <li id="critica2">Critica </li>
+                </ul>                
+              </div>    
+            </div>
+           
+            
+             <div class="item">
+              <h4><img class="box-filmes" src="img/madonna4.jpg">
+                <p>Maddonna</p>
+              </h4>
+            
+            
+              <div class="legenda">
+                <ul>
+                  <li id="show3">Show</li>
+                  <li id="ano3">Ano</li>
+                  <li id="critica3">Critica </li>
+                </ul>                
+              </div>    
+            </div>
+          
+          
+            <div class="item">
+              <h4><img class="box-filmes" src="img/madonna5.jpg">
+                <p>Maddonna</p>
+              </h4>
+            
+          
+              <div class="legenda">
+                <ul>
+                  <li id="show4">Show</li>
+                  <li id="ano4">Ano</li>
+                  <li id="critica4">Critica </li>
+                </ul>                
+              </div>    
+            </div>
+        
+             <div class="item">
+              <h4><img class="box-filmes" src="img/elton1.jpg">
+                <p>Elton</p>
+              </h4>
+            
+             
+              <div class="legenda">
+                <ul>
+                  <li id="show5">Show</li>
+                  <li id="ano5">Ano</li>
+                  <li id="critica5">Critica </li>
+                </ul>                
+              </div>    
+            </div>
+          
+          </div>
+        </div>
+    </div>
+
+    
+    <script src="/js/gerarjson.js"></script>
+    <script src="https://kit.fontawesome.com/afa60e7fc6.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    
+    
+
+         
+
+</body>
+</html>

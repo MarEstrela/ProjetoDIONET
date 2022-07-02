@@ -1,0 +1,41 @@
+{
+  "infolegenda": [
+    {
+      "idshow":"00",
+      "show": "nome do show 00",
+      "ano":"0000" ,
+      "critica":"5"      
+    },
+    {
+      "idshow":"01",
+      "show": "nome do show 01",
+      "ano":"0001",
+      "critica":"3"             
+    },
+    {
+      "idshow":"02",
+      "show": "nome do show 02",
+      "ano":"0002",
+      "critica":"4"                   
+    },
+    {
+      "idshow":"03",
+      "show": "nome do show 03",
+      "ano":"0000",
+      "critica":"5"                   
+    },
+    {
+      "idshow":"04",
+      "show": "nome do show 04",
+      "ano":"0000",
+      "critica":"2"                   
+    },
+    {
+      "idshow":"05",
+      "show": "nome do show 05",
+      "ano":"0000",
+      "critica":"3"                   
+    }
+    
+  ]
+}
