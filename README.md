@@ -1,6 +1,6 @@
 # ProjetoDIONET
 BootCamp Impulso
-# Site para os melhores videos de show com opção de escolha e opiniao.
+# # Site para  videos de show lendo arquivo JSON para criação de legenda.
 
 <h4> Estudo - JSON 1 </h4>
 <ul>
